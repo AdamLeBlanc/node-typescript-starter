@@ -34,7 +34,7 @@ plugins:
   editorconfig:
     enabled: true
   eslint:
-    enabled: true
+    enabled: false
   fixme:
     enabled: true
   nodesecurity:
