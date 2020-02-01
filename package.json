@@ -4,7 +4,8 @@
   "description": "A starter project for nodejs projects using typescript",
   "main": "index.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --collectCoverage"
   },
   "keywords": [
     "typescript",
