@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "name": "Debug tests in watch mode",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": [
+        "--inspect-brk",
+        "node_modules/.bin/jest",
+        "--runInBand",
+        "--watch"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "protocol": "inspector",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Debug tests once",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": ["--inspect-brk", "node_modules/.bin/jest", "--runInBand"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "protocol": "inspector",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run tests in watch mode",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": ["node_modules/.bin/jest", "--watch"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "protocol": "inspector",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run tests once",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "args": ["node_modules/.bin/jest"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "protocol": "inspector",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
