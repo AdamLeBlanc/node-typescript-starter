@@ -1,1 +1,3 @@
-it('passes the smoke test', () => expect(2).toBe(2));
+import person from './index';
+
+it('is John', () => expect(person.name).toEqual('John'));

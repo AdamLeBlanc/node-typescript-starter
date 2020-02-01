@@ -3,7 +3,9 @@ interface Person {
   age: number;
 }
 
-const john: Person = { age: 45, name: 'John' };
+const john: Person = {
+  name: 'John',
+  age: 20,
+};
 
-// eslint-disable-next-line no-console
-console.log(`${john.name} is ${john.age} years old.`);
+export default john;

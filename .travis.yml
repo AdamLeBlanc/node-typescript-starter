@@ -10,5 +10,4 @@ before_script:
 script:
   - npm run test:ci
 after_script:
-  - ls -l
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT --debug
