@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "test:ci": "jest --collectCoverage",
-    "start": "ts-node-dev ./src/index.ts"
+    "start": "ts-node-dev ./src/index.ts",
+    "build": "tsc",
+    "start:prod": "node ./dist"
   },
   "keywords": [
     "typescript",
