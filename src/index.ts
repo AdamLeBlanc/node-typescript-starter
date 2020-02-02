@@ -1,25 +1,5 @@
-interface Person {
-  name: string;
-  age: number;
+function add(n1: number, n2: number) {
+  return n1 + n2;
 }
 
-const john: Person = {
-  name: 'John',
-  age: 20,
-};
-
-console.log('HELLOOOOOOOOOOOO');
-console.log('HELLOOOOOOOOOOOO');
-console.log('HELLOOOOOOOOOOOO');
-console.log('HELLOOOOOOOOOOOO');
-console.log('HELLOOOOOOOOOOOO');
-
-function foo() {
-  const b = 'blah';
-  console.log(b);
-  return b;
-}
-
-foo();
-
-export default john;
+export default add;

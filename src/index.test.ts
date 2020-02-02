@@ -1,3 +1,4 @@
-import person from './index';
+import add from './index';
 
-it('is John', () => expect(person.name).toEqual('John'));
+it('Should sum the numbers', () => expect(add(2, 2)).toBe(4));
+it('Should sum negative numbers', () => expect(add(5, -2)).toBe(3));
