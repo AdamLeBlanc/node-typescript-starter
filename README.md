@@ -33,3 +33,7 @@ Projects comes out of the box with [travis-ci](#https://travis-ci.org/) and [cod
 - Add an env variable called `CC_TEST_REPORT_ID` with the value from code climate to travis ci.
 
 You should be good to go after that. You can enable and disable features on code climate under repo settings. Remember to grab badges from travis and code climate to put in your readme!
+
+#### vs-code
+
+I also added a few lunch task to make debugging in vs code easer.
